@@ -1,8 +1,8 @@
 import pytest
 import os
 from dotenv import load_dotenv
-from playwright.sync_api import sync_playwright
-from streamlit import Page
+from playwright.sync_api import sync_playwright ,Page
+from playwright.sync_api import Page
 from pages.login_page import LoginPage
 load_dotenv()
 
